@@ -161,7 +161,10 @@ function thx() {
     setTimeout(function() {
     FINAL.innerHTML += "Well yes i lied and what about it<br>"
     setTimeout(function() {
-    FINAL.innerHTML += "Stay strong tea <3 ily"
+    FINAL.innerHTML += "Stay strong tea <3 ily<br><br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "ur fav french"
+    }, 1000); // end
     }, 10000); // Stay
     }, 10000); // Well
     }, 10000); // No need to wait
