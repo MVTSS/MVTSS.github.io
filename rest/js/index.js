@@ -129,6 +129,57 @@ function failtimer() {
 
 
 
+function thx() {
+    WOWCODE.classList.toggle("visible");
+    THX.classList.remove("visible");
+    setTimeout(function() {
+    FINAL.innerHTML = "No problem, always a pleasure...<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Isn't it weird that, despite the fact that we don't talk now, this seems to be the closest contact we've ever had ?  "
+    setTimeout(function() {
+    FINAL.innerHTML += "<strong>(yet)</strong><br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "idk, crazy, right ?...<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Anyway"
+    setTimeout(function() {
+    FINAL.innerHTML += "."
+    setTimeout(function() {
+    FINAL.innerHTML += "."
+    setTimeout(function() {
+    FINAL.innerHTML += ".<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Remember when you said you wanted a website for your birthday ? because i do<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Let's just wait, even if it's well made, it's not me who talk so.... Be patient <3<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Also, you can click on the 'Soon ur birthday eh ?' to toggle the timer without seeing this horrible act of schizophrenia...<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Last thing, life will be better, even if now it seems kinda hard, you'll do better trust me, now there's really nothing else to see anymore<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "No need to wait...<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Well yes i lied and what about it<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Stay strong tea <3 ily"
+    }, 10000); // Stay
+    }, 10000); // Well
+    }, 10000); // No need to wait
+    }, 3000); // Last
+    }, 5000); // Also
+    }, 5000); // Let's
+    }, 3000); // Remember
+    }, 2000); // .
+    }, 2000); // .
+    }, 2000); // .
+    }, 5000); // anyway
+    }, 5000); // idk
+    }, 5000); // yet
+    }, 5000); // Do you
+    }, 500); // No problem
+}
+
+
 
 
 function mean() {
