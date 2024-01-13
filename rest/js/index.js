@@ -154,9 +154,21 @@ function thx() {
     FINAL.innerHTML += "Let's just wait, even if it's well made, it's not me who talk so.... Be patient <3<br>"
     setTimeout(function() {
     FINAL.innerHTML += "Also, you can click on the 'Soon ur birthday eh ?' to toggle the timer without seeing this horrible act of schizophrenia...<br>"
-    }, 5000); // n ow
-    }, 5000); // now
-    }, 3000); // now
+    setTimeout(function() {
+    FINAL.innerHTML += "Last thing, life will be better, even if now it seems kinda hard, you'll do better trust me, now there's really nothing else to see anymore<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "No need to wait...<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Well yes i lied and what about it<br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "Stay strong tea <3 ily"
+    }, 10000); // Stay
+    }, 10000); // Well
+    }, 10000); // No need to wait
+    }, 3000); // Last
+    }, 5000); // Also
+    }, 5000); // Let's
+    }, 3000); // Remember
     }, 2000); // .
     }, 2000); // .
     }, 2000); // .
