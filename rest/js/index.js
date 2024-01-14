@@ -37,52 +37,52 @@ let step = 0;
 
 function timer() {
 
-    // Check if the current date is before January 27, 2024 at 00:00
-    const currentDate = new Date();
-    const targetDate = new Date('2024-01-27T00:00:00');
-    if ((currentDate < targetDate) && (date == true)) {
+        // Check if the current date is before January 27, 2024 at 00:00
+        const currentDate = new Date();
+        const targetDate = new Date('2024-01-27T00:00:00');
+        if ((currentDate < targetDate) && (date == true)) {
 
-        TIMERBUT.innerHTML = "At least give me a timer....";
-        MEAN.innerHTML = "јеби се моја курво.";
+            TIMERBUT.innerHTML = "At least give me a timer....";
+            MEAN.innerHTML = "јеби се моја курво.";
 
-        COOLBUTTON.classList.toggle("visible")
-        document.getElementById("impatience").innerHTML = "No it's not. Patience isn't a virtue, but a necessity, and you clearly need it.";
-        TIMERBUT.classList.add("visible");
-        MEAN.classList.add("visible");
+            COOLBUTTON.classList.toggle("visible")
+            document.getElementById("impatience").innerHTML = "No it's not. Patience isn't a virtue, but a necessity, and you clearly need it.";
+            TIMERBUT.classList.add("visible");
+            MEAN.classList.add("visible");
 
-    }
-    else {
-        woohoo.classList.add("invisible")
-        let rep = prompt("Are you excited ? (y/n)")
-        if (rep == "y") {
-            let eq = prompt("Well i hope so, but first, solve for 'i' : 9x- 7i < 3 (3x -7u), then write down the solution (no space, like '3x<5')")
-            if (eq == "i<3u") {
-                alert("Wow... thanks but don't try to charm me thats flattering, i'm not an easy girl....")
-                let rep2 = prompt("Anyway, to start the birthday just say the name of ur fav dog")
-                if (rep2.toUpperCase() == "MIKI") {
-                    alert("U GOT IT RIGHT LETS GET ITTTTT")
-                    alert("have fun :)")
-                    coolmode();
-                }
-                else if (rep2.toUpperCase() == "MATIS" || rep2.toUpperCase() == "MATISSE") {
-                    alert("That's mean..... again.... it was miki.... BUT U GOT IT RIGHT STILL LETS GOOOOOO")
-                    alert("have fun :)")
-                    coolmode();
-                }
-                else {
-                    alert("Nope... not this one...")
-                }
-            } else {
-                alert("Not quite, you should try harder... or ask a guy who knows how to do it... no person in mind...")
-            }
-        } else if (rep == "n") {
-            alert("Well, that's sad, come back when u are :(")
-        } else {
-            alert("I don't got it, come back when u are excited :(")
         }
+        else {
+            woohoo.classList.add("invisible")
+            let rep = prompt("Are you excited ? (y/n)")
+            if (rep == "y") {
+                let eq = prompt("Well i hope so, but first, solve for 'i' : 9x- 7i < 3 (3x -7u), then write down the solution (no space, like '3x<5')")
+                if (eq == "i<3u") {
+                    alert("Wow... thanks but don't try to charm me thats flattering, i'm not an easy girl....")
+                    let rep2 = prompt("Anyway, to start the birthday just say the name of ur fav dog")
+                    if (rep2.toUpperCase() == "MIKI") {
+                        alert("U GOT IT RIGHT LETS GET ITTTTT")
+                        alert("have fun :)")
+                        coolmode();
+                    }
+                    else if (rep2.toUpperCase() == "MATIS" || rep2.toUpperCase() == "MATISSE") {
+                        alert("That's mean..... again.... it was miki.... BUT U GOT IT RIGHT STILL LETS GOOOOOO")
+                        alert("have fun :)")
+                        coolmode();
+                    }
+                    else {
+                        alert("Nope... not this one...")
+                    }
+                } else {
+                    alert("Not quite, you should try harder... or ask a guy who knows how to do it... no person in mind...")
+                }
+            } else if (rep == "n") {
+                alert("Well, that's sad, come back when u are :(")
+            } else {
+                alert("I don't got it, come back when u are excited :(")
+            }
 
 
-    }
+        }
 
 }
 
@@ -183,19 +183,22 @@ function thx() {
     setTimeout(function() {
     FINAL.innerHTML += "Also, you can click on the 'Soon ur birthday eh ?' to toggle the timer without seeing this horrible act of schizophrenia...<br>"
     setTimeout(function() {
-    FINAL.innerHTML += "Last thing, life will be better, even if now it seems kinda hard, you'll do better trust me, now there's really nothing else to see anymore<br>"
+    FINAL.innerHTML += "Last thing, u should think about that : solve for 'i' : 9x- 7i < 3 (3x -7u)<br>"
     setTimeout(function() {
-    FINAL.innerHTML += "No need to wait...<br>"
+    FINAL.innerHTML += "Real last thing, apparently it's hard these days, but it will go better and yk it, i'm 100% with you and believe in you getting up, u strong kučka <br>"
+    setTimeout(function() {
+    FINAL.innerHTML += "No need to wait now...<br>"
     setTimeout(function() {
     FINAL.innerHTML += "Well yes i lied and what about it<br>"
     setTimeout(function() {
-    FINAL.innerHTML += "Stay strong tea <3 ily<br><br>"
+    FINAL.innerHTML += "Stay strong tea <3<br><br>"
     setTimeout(function() {
-    FINAL.innerHTML += "ur fav french"
+    FINAL.innerHTML += "ur fav french :3"
     }, 1000); // end
     }, 10000); // Stay
     }, 10000); // Well
     }, 10000); // No need to wait
+    }, 3000); // Real last thing
     }, 3000); // Last
     }, 5000); // Also
     }, 5000); // Let's
@@ -273,6 +276,18 @@ function nextStep() {
         }, 3000);
     }
 }
+
+
+
+
+document.getElementById('backgroundMusic').addEventListener('click', function(event) {
+    console.log(event.target.id);
+    
+    
+    
+    
+});
+
 
 
 

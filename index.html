@@ -12,7 +12,12 @@
 </head>
 <body>
     <h1 id="cooltext">Soon ur birthday eh ?</h1>
-    <p id="woohoo">click on that button when it is... such a fun page...</p>
+    <p id="woohoo">click on that button when it is...</p>   
+    
+
+    <audio id="backgroundMusic" src="./rest/music/waiting_music.mp3" loop>
+        <source src="./rest/music/waiting_music.mp3">
+    </audio>
 
 
     <h2 id="timerText" class="invisible"></h2>
@@ -47,11 +52,18 @@
 
     
 
+    <script>
 
+        document.addEventListener('click', function() {
+            let audio = document.getElementById('backgroundMusic');
+            audio.volume = 0.02;
+            document.getElementById('backgroundMusic').play();
+        });
+    </script>
 
     <p id="final"></p>
 
-    <button id="final" class="invisible"></button>
+    <button class="invisible" id="final"></button>
     <script src="./rest/js/index.js"></script>
     
 </body>
