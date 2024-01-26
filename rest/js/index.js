@@ -31,7 +31,7 @@ const TEOCOLOR1 = document.getElementById('teocolor2');
 const TEOCOLOR2 = document.getElementById('teocolor3');
 
 
-let date = false;
+let date = true;
 let step = 0;
 
 
