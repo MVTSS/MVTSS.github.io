@@ -31,8 +31,18 @@ const TEOCOLOR1 = document.getElementById('teocolor2');
 const TEOCOLOR2 = document.getElementById('teocolor3');
 
 
-let date = true;
+let date = false;
 let step = 0;
+
+
+
+
+document.addEventListener('click', function() {
+    let audio = document.getElementById('backgroundMusic');
+    audio.volume = 0.02;
+    document.getElementById('backgroundMusic').play();
+});
+
 
 
 function timer() {
@@ -55,19 +65,19 @@ function timer() {
             woohoo.classList.add("invisible")
             let rep = prompt("Are you excited ? (y/n)")
             if (rep == "y") {
-                let eq = prompt("Well i hope so, but first, solve for 'i' : 9x- 7i < 3 (3x -7u), then write down the solution (no space, like '3x<5')")
+                let eq = prompt("Well i hope so, but first, solve for 'i' : 9x- 7i < 3 (3x -7u), then write down the solution (no space, like '3x<5', and 'i' on the left side)")
                 if (eq == "i<3u") {
                     alert("Wow... thanks but don't try to charm me thats flattering, i'm not an easy girl....")
                     let rep2 = prompt("Anyway, to start the birthday just say the name of ur fav dog")
                     if (rep2.toUpperCase() == "MIKI") {
                         alert("U GOT IT RIGHT LETS GET ITTTTT")
                         alert("have fun :)")
-                        coolmode();
+                        window.location.href = "birthday.html";
                     }
                     else if (rep2.toUpperCase() == "MATIS" || rep2.toUpperCase() == "MATISSE") {
                         alert("That's mean..... again.... it was miki.... BUT U GOT IT RIGHT STILL LETS GOOOOOO")
                         alert("have fun :)")
-                        coolmode();
+                        window.location.href = "birthday.html";
                     }
                     else {
                         alert("Nope... not this one...")
@@ -282,10 +292,6 @@ function nextStep() {
 
 document.getElementById('backgroundMusic').addEventListener('click', function(event) {
     console.log(event.target.id);
-    
-    
-    
-    
 });
 
 

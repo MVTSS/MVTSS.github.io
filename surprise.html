@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teodora</title>
+    <link rel="stylesheet" href="./rest/css/index.css">
+    <link rel="stylesheet" href="./rest/css/styles.css" id="mainStylesheet">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+
+
+    
+    <link rel="stylesheet" href="./rest/css/hamburger.css" />
+
+
+    <link rel="icon" href="./rest/img/cinnamoroll_nobg.png" type="image/x-icon">
+    <meta charset="UTF-8">  
+</head>
+<body>
+    <div id="bar">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="./message.html">Little Message</a></li>
+                    <li><a href="./halloffame.html">HALL OF FAME</a></li>
+                </ul>
+                <h1 class="logo" id="logo">TEO MENU</h1>
+            </div>
+        </nav>
+
+    </div>
+    <center>
+    <button id="open">OPEN THE SURPRISE</button>
+
+    <audio id="backgroundMusic" src="./rest/music/casino.mp3" loop>
+        <source src="./rest/music/casino.mp3">
+    </audio>
+
+
+
+    <div class="dessous invisible" id="ptittexte"> 
+        <h1> Since Miss Universe don't want me to spend my money...</h1>
+        <h3>Instead i made a little game where u have to guess what number i think of. Admit u wanted the gift card now.</h3><br>
+        <h3>Everytime u guess u'll get a compliment and get the page reloaded after 5s of this sweet message. Oh and i added the number of time u successfully find the number if u want to... think about how sad ur life is to play this game multiple times.</h3><br>
+
+        <input type="text" name="myText" id="myText" id="nb">
+        <button id="validated">Validé</button><br>
+
+        <h3 id="result"></h3>
+        <br>
+        <h3 id="score">Total score : </h3>
+
+
+    </div>
+    </center>
+
+
+
+    
+
+    <script src="./rest/js/surprise.js"></script>
+    <script src="./rest/js/changepage.js"></script>
+    <script src="./rest/js/open.js"></script>
+    
+    <script>
+
+        document.getElementById("open").addEventListener('click', function() {
+            let audio = document.getElementById('backgroundMusic');
+            audio.volume = 0.4;
+            document.getElementById('backgroundMusic').play();
+        });
+
+        document.getElementById("logo").addEventListener('click', function() {
+            document.getElementById("logo").innerHTML = "<3"
+        });
+
+
+    </script>
+
+    
+</body>
+</html>
+
+
+<!-- 
+    teo :
+    17 Decembre 2023 : i'm just a sucker for nostalgia
+    
+    me :
+    Wed 10 jan : Princess treatment isnt useful in long term
+    Sep 13 2023 : i guess we ll do that thanks for ... screen
+    Sep 13 2023 : all for u, but i will still... screen
+    Sep 12 2023 : but i will still lower the princess treatment
+
+
+ -->
